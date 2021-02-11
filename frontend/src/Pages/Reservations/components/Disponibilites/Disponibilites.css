@@ -1,0 +1,36 @@
+.Container{
+    margin-top: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.Ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.Li{
+    margin-right: 10px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.Img{
+    margin-right: 7px;
+    width: 24px;
+    cursor: pointer;
+}
+
+.Disponibilites{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media (min-width: 950px) {
+
+}

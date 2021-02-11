@@ -1,0 +1,8 @@
+{
+  "short_name": "Gestion des postes informatiques",
+  "name": "Centre culturel gestion des postes informatiques",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

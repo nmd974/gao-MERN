@@ -1,0 +1,36 @@
+.Toolbar {
+    height: 86px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #313131;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.Titre{
+    display: initial;
+}
+
+.Content {
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+}
+
+.Logo p{
+    margin: 10px;
+}
+
+@media (max-width: 950px) {
+    .Titre{
+        display: none;
+    }
+}

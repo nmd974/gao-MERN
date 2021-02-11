@@ -1,0 +1,40 @@
+.CreneauxDispo{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.ContainerModalResaInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+
+.ButtonAdd{
+    padding: 10px;
+    background-color: green;
+    color: white;
+    font-size: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.ButtonCancel{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+.ModalUserInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

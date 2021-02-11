@@ -1,0 +1,13 @@
+.Container{
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: grey;
+    color: white;
+    text-transform: capitalize;
+    cursor: pointer;
+}

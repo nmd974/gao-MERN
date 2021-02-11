@@ -1,0 +1,21 @@
+.Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    background-color: grey;
+    color: white;
+    padding: 17px;
+    border-radius: 10px;
+}
+
+.Nom{
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-right: 17px;
+}
+
+.Img{
+    cursor: pointer;
+}

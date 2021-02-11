@@ -1,0 +1,100 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ButtonNew{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 17px;
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.Titre{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.ContainerFormNewUser{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.FormNewUser{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Input{
+    margin-bottom: 17px;
+    margin-top: 17px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.ButtonAdd{
+    padding: 10px;
+    background-color: green;
+    color: white;
+    font-size: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.ButtonCancel{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+.Button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.MessageErreur{
+    color: red;
+    font-size: 12px;
+}
+
+.ContainerModalError{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 20px solid red;
+}
+
+.ContainerModalConfirmation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 20px solid green;
+}
+.TitreMessage{
+    font-size: 12px;
+    text-align: center;
+}

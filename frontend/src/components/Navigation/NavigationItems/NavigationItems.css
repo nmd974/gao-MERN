@@ -1,0 +1,31 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ItemNav{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    font-size: 18px;
+}
+
+.NavLink{
+    text-decoration: none;
+    margin: 17px;
+    background-color: grey;
+    padding: 8px;
+    border-radius: 10px;
+    color: honeydew;
+}
+
+@media (max-width: 950px) {
+    .ItemNav{
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+    }
+}

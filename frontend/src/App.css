@@ -1,0 +1,19 @@
+.ContainerModalError{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 20px solid red;
+}
+
+.ContainerModalConfirmation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 20px solid green;
+}
+.TitreMessage{
+    font-size: 12px;
+    text-align: center;
+}
